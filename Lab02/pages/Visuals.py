@@ -76,7 +76,7 @@ This graph lets the user sort by my average rating per decade, getting to pick w
 """
 # GRAPH 3: DYNAMIC GRAPH
 csvurl = "https://raw.githubusercontent.com/lhernstberger/cs1301lab2full/refs/heads/main/Lab02/ratings2.csv"
-df2=pd.read_csv(url)
+df2=pd.read_csv(csvurl)
 st.divider()
 st.subheader("Dynamic: My Letterboxd Ratings by score and year")
 #df2 = pd.read_csv("ratings.csv")
