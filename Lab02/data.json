@@ -1,0 +1,15 @@
+{
+    "my_data": [
+        {"Decade": 1920, "MyAverage": 7.2},
+        {"Decade": 1930, "MyAverage": 6.8},
+        {"Decade": 1940, "MyAverage": 8.1},
+        {"Decade": 1950, "MyAverage": 7.4},
+        {"Decade": 1960, "MyAverage": 8.9},
+        {"Decade": 1970, "MyAverage": 9.3},
+        {"Decade": 1980, "MyAverage": 8.3},
+        {"Decade": 1990, "MyAverage": 8.0},
+        {"Decade": 2000, "MyAverage": 6.6},
+        {"Decade": 2010, "MyAverage": 5.9},
+        {"Decade": 2020, "MyAverage": 7.2}
+    ]
+}
