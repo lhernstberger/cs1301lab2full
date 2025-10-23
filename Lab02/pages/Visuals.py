@@ -49,8 +49,10 @@ This graph lets the user choose which decades to display with my scores for film
 """
 st.divider()
 st.subheader("Dynamic: My average ratings per decade.") 
-with open("data.json", "r") as f:
-    my_data = json.load(f)
+jsonurl = "https://raw.githubusercontent.com/lhernstberger/cs1301lab2/refs/heads/main/Lab02/data.json"
+
+response = requests.get(jsonurl)
+my_data = response.json()
 dmy = pd.DataFrame(my_data["my_data"])
 
 if "decades" not in st.session_state: #NEW
