@@ -75,10 +75,10 @@ st.line_chart(filtered_df.set_index("Decade")["MyAverage"]) #NEW
 This graph lets the user sort by my average rating per decade, getting to pick which decade.
 """
 # GRAPH 3: DYNAMIC GRAPH
-#jsonurl2 = "https://raw.githubusercontent.com/lhernstberger/cs1301lab2full/refs/main/Lab02/ratings.csv"
-#response = requests.get(jsonurl2)
-#df2 = response.json()
-df2 = pd.read_csv(cs1301lab2full/blob/main/Lab02/ratings.csv)
+jsonurl2 = "https://raw.githubusercontent.com/lhernstberger/cs1301lab2full/refs/main/Lab02/ratings2.csv"
+response = requests.get(jsonurl2)
+df2 = response.json()
+#df2 = pd.read_csv(cs1301lab2full/blob/main/Lab02/ratings.csv)
 st.divider()
 st.subheader("Dynamic: My Letterboxd Ratings by score and year")
 #df2 = pd.read_csv("ratings.csv")
