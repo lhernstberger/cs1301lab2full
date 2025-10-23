@@ -5,6 +5,7 @@ import streamlit as st
 import pandas as pd
 import json
 import plotly.express as px
+import requests
 # PAGE CONFIGURATION
 st.set_page_config(
     page_title="Visualizations",
